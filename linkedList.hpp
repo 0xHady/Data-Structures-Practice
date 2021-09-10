@@ -26,7 +26,6 @@ LinkedList::LinkedList(){
     tail = NULL;
     size = 0;
 }
-
 LinkedList::~LinkedList(){
     delete head;
     delete tail;
